@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "start": "node src/loader.js",
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name livraria-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "node-restful": "^0.2.6",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "pm2": "^4.4.0"
+  }
+}
