@@ -1,0 +1,54 @@
+.card-title{
+    color: rebeccapurple ;
+
+}
+
+.card-header{
+    background-color:aliceblue;
+}
+
+
+.form-control{
+    border: solid 1px coral;
+    margin: 5px;
+    
+}
+.card-body{
+    margin: 0 auto;
+}
+
+.btn.btn-primary{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Lido{
+    text-decoration: line-through;
+    color: lightgreen;
+}
+
+.IconeLido{
+    color: lightgreen;
+}
+
+.NaoLido{
+    color: white;
+
+}
+
+.alert{
+    margin-top: 20px;
+}
+
+.area-pesquisa{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.area-pesquisa p{
+    padding-top: 20px;
+    font-size: 20px;
+    color:blue;
+    font-weight: 300;
+}
